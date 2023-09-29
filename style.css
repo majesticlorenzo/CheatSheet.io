@@ -1,0 +1,21 @@
+* {
+    background-color: aquamarine;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+table {
+    border: solid 2px orangered;
+}
+
+th, td {
+    border: solid 1px orangered;
+}
+
+th {
+    background-color: azure;
+    font-size:large
+}
+
+p {
+    font-size: large;
+    color: purple
+}
