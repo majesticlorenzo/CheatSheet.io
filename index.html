@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="./resources/style.css" type="text/css" rel="stylesheet">
+  <title>CSS Position Cheatsheet</title>
+</head>
+<body>
+  <h1>CSS Styling - The Position Property</h1>
+  <p>The position CSS property sets how an element is positioned in a document. The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/top" target="blank">top</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/right" target="blank">right</a>, bottom, and left properties 
+    determine the final location of position elements. The following table summarizes how these different properties behave.</p>
+  
+  <div class="table">
+    <table>
+        <thead>
+            <tr>
+                <th>Property</th>
+                <th>Element flow in document</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>static</td>
+                <td>Normal</td>
+                <td>Default value. Element position according to normal flow of document. top, right, bottom, left proprties have no effect</td>
+            </tr>
+            <tr>
+                <td>relative</td>
+                <td>Positioned in normal flow of document, offset relative to itself</td>
+                <td>The offset does not affect the position of any other elements, which therefore remain in their stated position.</td>
+            </tr>
+            <tr>
+                <td>absolute</td>
+                <td>Removed from normal flow of document.</td>
+                <td>No space created for the element in page layout. The element is positioned relative to its closest positioned ancestor (if any) or to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.</td>
+            </tr>
+            <tr>
+                <td>fixed</td>
+                <td>Removed from normal flow of document.</td>
+                <td>The element is positioned relative to its initial containing block, which is the viewport in the case of visual media. Its final position is determined by the values of top, right, bottom, and left.</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <p>Position is one of the most complex CSS properties I have encountered so far</p>
+</body>
+</html>
